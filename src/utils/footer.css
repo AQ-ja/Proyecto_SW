@@ -1,0 +1,96 @@
+.main-footer {
+    background-color: white;
+    padding-top: 3px;
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    align-content: space-between;
+}
+
+.list-unstyled {
+    font-size: 10px;
+    line-height: 30px;
+}
+
+
+.col {
+    position: absolute;
+    top: 40px;
+    left: 300px;
+}
+
+.title1 {
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+
+
+.col2 {
+    position: absolute;
+    top: 40px;
+    left: 600px;
+}
+.title2 {
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+
+.col3 {
+    position: absolute;
+    top: 40px;
+    left: 860px;
+}
+.title3 {
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+
+.col4 {
+    position: absolute;
+    top: 40px;
+    left: 1080px;
+}
+.title4 {
+    font-style: normal;
+    font-size: 15px;
+}
+
+
+
+
+.col5 {
+    position: absolute;
+    top: 40px;
+    left: 1280px;
+}
+.title5 {
+    font-style: normal;
+    font-size: 15px;
+}
+
+.flogo {    
+    position: absolute;
+    top: 295px;
+    left: 310px;
+}
+
+
+.col-rg {
+    position:absolute;
+    top: 297px;
+    font-size: 10px;
+    right: 299px;
+}
+
+.col-sm {
+    position:absolute;
+    top: 297px;
+    font-size: 10px;
+    left: 339px;
+}

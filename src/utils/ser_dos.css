@@ -1,0 +1,86 @@
+.contenedork {
+    width: auto;
+    height: auto;
+    border: 3px solid rgb(255, 255, 255);
+    margin: auto;
+    font-size: 50px;
+    line-height: 50px;
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 4px;
+    background-color: rgb(255, 255, 255);
+}
+
+.contenedork > div {
+    align-content:space-between;
+    box-shadow: 3px 3px 3px 3px rgb(255, 255, 255);
+}
+
+.tec {
+   filter: opacity(60%);
+}
+
+.tec:hover {
+    filter: brightness(100%);
+    opacity: 1.2;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.sup {
+    filter: opacity(60%);
+}
+ 
+.sup:hover {
+     filter: brightness(100%);
+     opacity: 1.2;
+     transition: all 0.2s ease-in-out 0s;
+}
+
+.icon1 {
+    margin: auto;
+    position: absolute;
+    top: 1700px;
+    left: 380px;
+}
+
+.txt1 {
+  position: absolute;
+  top: 1780px;
+  left: 325px;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+}
+
+.txt2 {
+    position: absolute;
+    top: 1800px;
+    left: 275px;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
+
+
+.icon2 {
+    margin: auto;
+    position: absolute;
+    top: 1700px;
+    right: 380px;
+}
+
+.txt1_2 {
+  position: absolute;
+  top: 1780px;
+  right: 395px;
+  font-size: 22px;
+  color: rgb(0, 0, 0);
+}
+
+.txt2_2 {
+    position: absolute;
+    top: 1800px;
+    right: 320px;
+    font-size: 13px;
+    color: rgb(0, 0, 0);
+}
+

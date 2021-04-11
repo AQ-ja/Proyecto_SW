@@ -1,0 +1,13 @@
+.container {
+    border-color: black;
+}
+
+.unik{
+    filter: brightness(70%);
+}
+ 
+.unik:hover {
+     filter: brightness(105%);
+     opacity: 1.2;
+     transition: all 0.2s ease-in-out 0s;
+}

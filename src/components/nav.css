@@ -1,0 +1,136 @@
+nav {
+    height: 90px;
+    border: 1px solid #796161;
+}
+
+#div-header {
+    width: 80%;
+    height: 100%;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.Logo {
+    left: 60px;
+}
+
+#pr{
+    Color:rgb(5, 5, 5);
+    font-size: 19px;
+    height: 30px;
+    padding-bottom: 9px;
+}
+
+#pr::before {
+  width: 100%;
+  bottom: 0;
+  left: 0;
+  visibility: hidden;
+  transform: scaleX(0);
+  transition: all 0.1s ease-in-out 0s;
+}
+
+#pr:hover {
+    visibility: visible;    
+    border-bottom: solid red 4px;
+}
+
+
+#os{
+    Color:rgb(5, 5, 5);
+    font-size: 19px;
+    height: 30px;
+    padding-bottom: 9px;
+}
+
+#os::before {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.1s ease-in-out 0s;
+}
+  
+#os:hover {
+      visibility: visible;    
+      border-bottom: solid red 4px;
+}
+  
+
+
+
+#co{
+    Color:rgb(5, 5, 5);
+    font-size: 19px;
+    height: 30px;
+    padding-bottom: 9px;
+}
+
+#co::before {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.1s ease-in-out 0s;
+}
+  
+#co:hover {
+      visibility: visible;    
+      border-bottom: solid red 4px;
+}
+  
+
+
+#wn{
+    Color:rgb(5, 5, 5);
+    font-size: 19px;
+    height: 30px;
+    padding-bottom: 9px;
+}
+
+#wn::before {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.1s ease-in-out 0s;
+}
+  
+#wn:hover {
+      visibility: visible;    
+      border-bottom: solid red 4px;
+}
+  
+
+
+#su{
+    Color:rgb(5, 5, 5);
+    font-size: 19px;
+    height: 30px;
+    padding-bottom: 9px;
+}
+
+#su::before {
+    width: 100%;
+    bottom: 0;
+    left: 0;
+    visibility: hidden;
+    transform: scaleX(0);
+    transition: all 0.1s ease-in-out 0s;
+}
+  
+#su:hover {
+      visibility: visible;    
+      border-bottom: solid red 4px;
+}
+  
+
+#icons {
+    left: 1900px;
+}

@@ -1,0 +1,47 @@
+.contenedor {
+    width: auto;
+    border: 3px solid rgb(51, 49, 49);
+    margin: auto;
+    font-size: 50px;
+    line-height: 50px;
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    grid-template-rows: repeat(1, 1fr);
+    grid-gap: 3px;
+    background-color: rgb(51, 49, 49);
+}
+
+.contenedor > div {
+    align-content:space-between;
+    box-shadow: 2px 2px 2px 2px rgb(51, 49, 49);
+}
+
+.uno {
+   filter: brightness(85%);
+}
+
+.uno:hover {
+    filter: brightness(125%);
+    opacity: 1.2;
+    transition: all 0.2s ease-in-out 0s;
+}
+
+.dos {
+    filter: brightness(85%);
+}
+ 
+.dos:hover {
+     filter: brightness(125%);
+     opacity: 1.2;
+     transition: all 0.2s ease-in-out 0s;
+}
+
+.tres {
+    filter: brightness(85%);
+}
+ 
+.tres:hover {
+     filter: brightness(125%);
+     opacity: 1.2;
+     transition: all 0.2s ease-in-out 0s;
+}
